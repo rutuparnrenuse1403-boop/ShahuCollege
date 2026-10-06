@@ -1,0 +1,217 @@
+/* ==============================
+   RESET
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==============================
+   BODY
+================================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f5f9;
+    color: #222;
+}
+
+
+/* ==============================
+   HOME PAGE
+================================= */
+
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.college-card {
+    width: 100%;
+    max-width: 650px;
+    background: white;
+    padding: 50px 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
+}
+
+.college-card h1 {
+    font-size: 32px;
+    color: #173b67;
+    margin-bottom: 15px;
+}
+
+.college-card p {
+    color: #666;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+
+/* ==============================
+   FORM CONTAINER
+================================= */
+
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+
+/* ==============================
+   FORM CARD
+================================= */
+
+.form-card {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
+}
+
+.form-card h2 {
+    text-align: center;
+    color: #173b67;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+
+/* ==============================
+   INPUTS
+================================= */
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    color: #333;
+}
+
+.input-group label span {
+    color: red;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #d0d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #173b67;
+    box-shadow: 0 0 0 3px rgba(23, 59, 103, 0.10);
+}
+
+
+/* ==============================
+   BUTTON
+================================= */
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 13px;
+    margin-top: 5px;
+    background: #173b67;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0e2949;
+    transform: translateY(-1px);
+}
+
+
+/* ==============================
+   LINKS
+================================= */
+
+.login-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.login-text a {
+    color: #173b67;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+.forgot {
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    color: #173b67;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+
+/* ==============================
+   MOBILE RESPONSIVE
+================================= */
+
+@media (max-width: 600px) {
+
+    .college-card {
+        padding: 35px 20px;
+    }
+
+    .college-card h1 {
+        font-size: 25px;
+    }
+
+    .form-card {
+        padding: 25px 20px;
+    }
+
+    .form-card h2 {
+        font-size: 24px;
+    }
+
+}
